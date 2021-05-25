@@ -3,6 +3,6 @@
 Проект выполнила Natalia
 
 ## Используются технологии
--HTML
--CSS
--Bootstrapv5
+- HTML
+- CSS
+- Bootstrapv5
