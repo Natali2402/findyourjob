@@ -1,8 +1,14 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
     color:#113238;
+}
+.header{
+    background: #F2F3F6;
 }
 .menu{
     list-style: none;
@@ -22,6 +28,8 @@ body{
 .button{
     text-decoration: none;
     display: inline-block;
+    border: none;
+    font-size: 16px;
 }
 .button-link{
     padding: 10px;
@@ -33,4 +41,93 @@ body{
     border-radius: 5px;
     color: #FFFFFF;
     padding: 15px 30px;
+    cursor: pointer;
+}
+.button-text{
+    vertical-align: middle;
+}
+.button-icon{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+    color: #111238;
+    margin-bottom: 15px;
+    margin-top: 43px;
+}
+.hero-text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #111238;
+    margin-bottom: 30px;
+}
+.input-group{
+    background: #FFFFFF;
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.input{
+    border: none;
+    background-color: #FFFFFF;
+    padding-left: 15px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B2B2B2;
+    flex-grow: 1;
+}
+.input:focus{
+    outline: none;
+}
+.tegs-group{
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B2B2B2;
+}
+.tag-link{
+    color: #B2B2B2;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #B2B2B2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 10px;
+}  
+.section{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.section-title{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.icon{
+    fill: #111238;
+    margin-bottom: 15px;
+}
+.card{
+    text-decoration: none;
+    color: #111238;
+    border-radius: 10px;
+    border: none;
+    background: #F2F3F6;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    transition: background 0.2s, color 0.2s;
+}
+.card:hover{
+    background: #1A75E8;
+    color: #ffffff;
+}
+.card:hover .icon{
+    fill: #ffffff;
+    transition: fill 0.2s;
 }

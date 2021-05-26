@@ -11,7 +11,7 @@
     <title>FindYourJob</title>
 </head>
 <body>
-    <header>
+    <header class="header pb-5">
         <div class="container">
             <div class="row align-items-center py-3">
                 <div class="col-2 d-flex align-items-center">
@@ -31,9 +31,87 @@
                     <a href="#" class="button button-primary">Регистрация</a>
                 </div>
             </div>
-            <div class="hero"></div>
+            <div class="hero">
+                <div class="row pt-5">
+                    <div class="col-5">
+                        <h1 class="hero-title">Найдите удаленную работу вашей мечты</h1>
+                        <p class="hero-text">Создайте резюме или отправьте отклик на вакансию в&nbsp;компании с мировым именем и работайте <br>по свободному графику</p>
+                        <div class="input-group d-flex justify-content-between">
+                            <input class="input" type="text" placeholder="Начните поиск">
+                            <button class="button button-primary">
+                                <img class="button-icon" src="/img/search.svg" alt="search-img">
+                                <span class="button-text">Искать вакансии</span>
+                            </button>
+                        </div>
+                        <div class="tegs-group">
+                            <span tags-lable>Например:</span>
+                            <a class="tag-link" href="#">Front-end</a>
+                            <a class="tag-link" href="#">Back-end</a>
+                            <a class="tag-link" href="#">Designer</a>
+                        </div>
+                    </div>
+                    <div class="col-6 offset-1">
+                        <img class="hero-image" src="/img/hero-image.svg" alt="hero-image">
+                    </div>
+                </div>
+            </div>
         </div>
         <!--/container-->
     </header>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Категории</h2>
+            <div class="row">
+                <div class="col">
+                    <a href="#" class="card d-flex flex-column align-items-center">
+                        <svg height="24"  width="24" class="icon">
+                            <use href="img/icons.svg#brush"></use>
+                        </svg>
+                        <div class="card-text">Дизайн</div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="card d-flex flex-column align-items-center">
+                        <svg height="24" width="24" class="icon">
+                            <use href="img/icons.svg#browser"></use>
+                        </svg>
+                        <div class="card-text">Разработка</div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="card d-flex flex-column align-items-center">
+                        <svg height="24" width="24" class="icon">
+                            <use href="img/icons.svg#edit 1"></use>
+                        </svg>
+                        <div class="card-text">Копирайтинг</div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="card d-flex flex-column align-items-center">
+                        <svg height="24" width="24" class="icon">
+                            <use href="img/icons.svg#fingerprint"></use>
+                        </svg>
+                        <div class="card-text">Безопасность</div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="card d-flex flex-column align-items-center">
+                        <svg height="24" width="24" class="icon">
+                            <use href="img/icons.svg#camera 1"></use>
+                        </svg>
+                        <div class="card-text">Видео</div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="card d-flex flex-column align-items-center">
+                        <svg height="24" width="24" class="icon">
+                            <use href="img/icons.svg#school 1"></use>
+                        </svg>
+                        <div class="card-text">Образование</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
